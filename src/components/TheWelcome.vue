@@ -63,7 +63,8 @@ import AiFillGitlab from "react-icons";
     <template #heading>Projects</template>
     Here's a snippet of my projects:
     <br/>
-    <a href="https://cloutphilled.github.io">My first coding project (vanilla JS) was part of my bachelor thesis.</a>
-    <a href="javascript-komputer-store.netlify.app">KomputerStore - another project made with vanilla JS.</a>
+    <a href="https://cloutphilled.github.io">My first coding project (vanilla JS) was part of my bachelor thesis. </a>
+  
+    <a href="javascript-komputer-store.netlify.app">KomputerStore - another project made with vanilla JS. </a>
   </WelcomeItem>
 </template>
