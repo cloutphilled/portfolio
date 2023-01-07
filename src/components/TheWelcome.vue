@@ -51,7 +51,7 @@ import AiFillGitlab from "react-icons";
       <BIconFileEarmarkTextFill />
     </template>
     <template #heading>Resume</template>
-    <a>Link to my resume.</a>
+    <a href="https://drive.google.com/file/d/1_AVy6F5Mvr_g-fyi8LM5If-dD8sdtgn3/view?usp=share_link" target="_blank">Link to my resume.</a>
 
 
   </WelcomeItem>
