@@ -5,117 +5,64 @@ import ToolingIcon from "./icons/IconTooling.vue";
 import EcosystemIcon from "./icons/IconEcosystem.vue";
 import CommunityIcon from "./icons/IconCommunity.vue";
 import SupportIcon from "./icons/IconSupport.vue";
+import AiFillGitlab from "react-icons";
+
 
 </script>
 
 <template>
   <WelcomeItem>
-    <i class="fab fa-github"></i>
     <template #icon>
-      <DocumentationIcon />
-      <font-awesome-icon icon="fab fa-github" />
+      <BIconShareFill/>
     </template>
-    <template #heading>Github</template>
-    
-    <a href="https://github.com/cloutphilled" icon="fa-github" target="_blank">here</a>
-    <font-awesome-icon icon="fa-github"/>
+    <template #heading>My links</template>
+    <a href="mailto:phillipfriispetersen@gmail.com?subject=Website Inquiry" target="_blank"><BIconEnvelopeFill/></a>
+    &nbsp
+    <a href="https://github.com/cloutphilled" target="_blank"><BIconGithub/></a>
+    &nbsp
+    <a href="https://gitlab.com/cloutphilled" target="_blank"><BIconGit/></a>
+    &nbsp
+    <a href="https://instagram.com/clout_philled" target="_blank"><BIconInstagram /></a>
+    &nbsp
+    <a href="https://www.linkedin.com/in/phillip-friis-petersen-2184791b2/" target="_blank"><BIconLinkedin/></a>
+
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
-      <ToolingIcon />
+      <BIconPersonFill/>
     </template>
-    <template #heading>Tooling</template>
-
-    This project is served and bundled with
-    <a
-      href="https://vitejs.dev/guide/features.html"
-      target="_blank"
-      rel="noopener"
-      >Vite</a
-    >. The recommended IDE setup is
-    <a href="https://code.visualstudio.com/" target="_blank" rel="noopener"
-      >VSCode</a
-    >
-    +
-    <a
-      href="https://github.com/johnsoncodehk/volar"
-      target="_blank"
-      rel="noopener"
-      >Volar</a
-    >. If you need to test your components and web pages, check out
-    <a href="https://www.cypress.io/" target="_blank" rel="noopener">Cypress</a>
-    and
-    <a href="https://on.cypress.io/component" target="_blank"
-      >Cypress Component Testing</a
-    >.
-
-    <br />
-
-    More instructions are available in <code>README.md</code>.
+    <template #heading>Summary</template>
+    <p>Fullstack software developer who also shreds a mean guitar by making noisy music. Specializing in Front-End Development, I am passionate about bringing together creative designs with code.</p>
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
-      <EcosystemIcon />
+      <BIconCodeSquare/>
     </template>
-    <template #heading>Ecosystem</template>
+    <template #heading>Toolkit</template>
+    <p>JavaScript, HTML, CSS, JavaScript, React, Angular, Vue, TypeScript, Java, SQL, PostgreSQL, Bootstrap, Tailwind CSS, Git, VS Code, Docker, Swagger, Spring, Springboot, REST, SuperCollider, Figma, XD, Photoshop, Premiere Pro, InDesign, Illustrator.</p>
+  </WelcomeItem>
 
-    Get official tools and libraries for your project:
-    <a href="https://pinia.vuejs.org/" target="_blank" rel="noopener">Pinia</a>,
-    <a href="https://router.vuejs.org/" target="_blank" rel="noopener"
-      >Vue Router</a
-    >,
-    <a href="https://test-utils.vuejs.org/" target="_blank" rel="noopener"
-      >Vue Test Utils</a
-    >, and
-    <a href="https://github.com/vuejs/devtools" target="_blank" rel="noopener"
-      >Vue Dev Tools</a
-    >. If you need more resources, we suggest paying
-    <a
-      href="https://github.com/vuejs/awesome-vue"
-      target="_blank"
-      rel="noopener"
-      >Awesome Vue</a
-    >
-    a visit.
+  
+
+  <WelcomeItem>
+    <template #icon>
+      <BIconFileEarmarkTextFill />
+    </template>
+    <template #heading>Resume</template>
+    <a>Link to my resume.</a>
+
+
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
-      <CommunityIcon />
+      <BIconFolderFill/>
     </template>
-    <template #heading>Community</template>
-
-    Got stuck? Ask your question on
-    <a href="https://chat.vuejs.org" target="_blank" rel="noopener">Vue Land</a
-    >, our official Discord server, or
-    <a
-      href="https://stackoverflow.com/questions/tagged/vue.js"
-      target="_blank"
-      rel="noopener"
-      >StackOverflow</a
-    >. You should also subscribe to
-    <a href="https://news.vuejs.org" target="_blank" rel="noopener"
-      >our mailing list</a
-    >
-    and follow the official
-    <a href="https://twitter.com/vuejs" target="_blank" rel="noopener"
-      >@vuejs</a
-    >
-    twitter account for latest news in the Vue world.
-  </WelcomeItem>
-
-  <WelcomeItem>
-    <template #icon>
-      <SupportIcon />
-    </template>
-    <template #heading>Support Vue</template>
-
-    As an independent project, Vue relies on community backing for its
-    sustainability. You can help us by
-    <a href="https://vuejs.org/sponsor/" target="_blank" rel="noopener"
-      >becoming a sponsor</a
-    >.
+    <template #heading>Projects</template>
+    Here's a snippet of my projects:
+    <br/>
+    <a href="https://cloutphilled.github.io">My first coding project (vanilla JS) was part of my bachelor thesis.</a>
   </WelcomeItem>
 </template>

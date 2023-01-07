@@ -8,9 +8,8 @@ import HelloWorld from "./components/HelloWorld.vue";
     <img
       alt="Picture of me"
       class="logo"
-      src="@/assets/Telos_Ilter_RM-08.jpg"
-      width="500"
-      height="500"
+      src="@/assets/moi2.png"
+      width="400"
       loading="eager"
     />
 
