@@ -13,24 +13,24 @@ import AiFillGitlab from "react-icons";
 <template>
   <WelcomeItem>
     <template #icon>
-      <BIconShareFill/>
+      <BIconShareFill class="bi" />
     </template>
     <template #heading>My links</template>
-    <a href="mailto:phillipfriispetersen@gmail.com?subject=Website Inquiry" target="_blank"><BIconEnvelopeFill/></a>
+    <a href="mailto:phillipfriispetersen@gmail.com?subject=Website Inquiry" target="_blank"><BIconEnvelopeFill class="bi"/></a>
     &nbsp
-    <a href="https://github.com/cloutphilled" target="_blank"><BIconGithub/></a>
+    <a href="https://github.com/cloutphilled" target="_blank"><BIconGithub class="bi"/></a>
     &nbsp
-    <a href="https://gitlab.com/cloutphilled" target="_blank"><BIconGit/></a>
+    <a href="https://gitlab.com/cloutphilled" target="_blank"><BIconGit class="bi"/></a>
     &nbsp
-    <a href="https://instagram.com/clout_philled" target="_blank"><BIconInstagram /></a>
+    <a href="https://instagram.com/clout_philled" target="_blank"><BIconInstagram class="bi" /></a>
     &nbsp
-    <a href="https://www.linkedin.com/in/phillip-friis-petersen-2184791b2/" target="_blank"><BIconLinkedin/></a>
+    <a href="https://www.linkedin.com/in/phillip-friis-petersen-2184791b2/" target="_blank"><BIconLinkedin class="bi"/></a>
 
   </WelcomeItem>
 
   <WelcomeItem>
     <template #icon>
-      <BIconPersonFill/>
+      <BIconPersonFill class="bi"/>
     </template>
     <template #heading>Summary</template>
     <p>Fullstack software developer who also shreds a mean guitar by making noisy music. Specializing in Front-End Development, I am passionate about bringing together creative designs with code.</p>
@@ -38,7 +38,7 @@ import AiFillGitlab from "react-icons";
 
   <WelcomeItem>
     <template #icon>
-      <BIconCodeSquare/>
+      <BIconCodeSquare class="bi"/>
     </template>
     <template #heading>Toolkit</template>
     <p>JavaScript, HTML, CSS, JavaScript, React, Angular, Vue, TypeScript, Java, SQL, PostgreSQL, Bootstrap, Tailwind CSS, Git, VS Code, Docker, Swagger, Spring, Springboot, REST, SuperCollider, Figma, XD, Photoshop, Premiere Pro, InDesign, Illustrator.</p>
@@ -48,7 +48,7 @@ import AiFillGitlab from "react-icons";
 
   <WelcomeItem>
     <template #icon>
-      <BIconFileEarmarkTextFill />
+      <BIconFileEarmarkTextFill class="bi" />
     </template>
     <template #heading>Resume</template>
     <a href="https://drive.google.com/file/d/1_AVy6F5Mvr_g-fyi8LM5If-dD8sdtgn3/view?usp=share_link" target="_blank">My resume</a>
@@ -58,7 +58,7 @@ import AiFillGitlab from "react-icons";
 
   <WelcomeItem>
     <template #icon>
-      <BIconFolderFill/>
+      <BIconFolderFill class="bi"/>
     </template>
     <template #heading>Projects</template>
     Here's a snippet of my projects:
@@ -71,3 +71,5 @@ import AiFillGitlab from "react-icons";
     <p>More to be added...</p>
   </WelcomeItem>
 </template>
+
+
