@@ -65,7 +65,7 @@ import AiFillGitlab from "react-icons";
     <br/>
 
     <p><a href="https://cloutphilled.github.io">TELOS</a> - my first coding project (vanilla JS) was part of my bachelor thesis.</p>
-    <p><a href="https://javascript-komputer-store.netlify.app">KomputerStore</a> - another project made with vanilla JS. </p>
+    <p><a href="https://javascript-komputer-store.netlify.app">KomputerStore</a> - another project made with vanilla JS. (The API seems to be invalid currently) </p>
     
     <br/>
     <p>More to be added...</p>
