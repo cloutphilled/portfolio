@@ -8,7 +8,7 @@ import HelloWorld from "./components/HelloWorld.vue";
     <img
       alt="Picture of me"
       class="logo"
-      src="@/assets/moi2.png"
+      src="@/assets/mig.png"
       width="400"
       loading="eager"
     />
