@@ -15,7 +15,7 @@
       <br/>
       <p>
         I get the same feeling whenever I'm playing music. It's quite the addicting feeling. In terms of coding I'm especially passionate about front-end development.
-        I guess it's because it incorporates creativity and logical design. I always feel very proud of myself whenever I'm able to create something looks amazing.
+        I guess it's because it incorporates creativity and logical design. I always feel very proud of myself whenever I'm able to create something that looks cool and feels amazing to use.
       </p>
     </section>
     
