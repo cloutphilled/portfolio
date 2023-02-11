@@ -9,12 +9,13 @@
       loading="eager"
     />
       <p>
-        Hi! My name is Phillip. I'm a full stack software developer with a big
-        passion for music. I got into coding during my bachelor's degree in
-        "Digital Concept Development". I have a love/hate relationship with
-        coding - meaning that I hate it when the code doesn't work. I'm sure the
-        majority of coders have a similar feeling. When I finally get the code
-        to work, I feel like on top of the world. It's a very euphoric feeling.
+        Hi! My name is Phillip. I'm a full stack software developer & digital
+        concept developer with a big passion for music. I got into coding during
+        my bachelor's degree in "Digital Concept Development". I have a
+        love/hate relationship with coding - meaning that I hate it when the
+        code doesn't work. I'm sure the majority of coders have a similar
+        feeling. When I finally get the code to work, I feel like on top of the
+        world. It's a very euphoric feeling.
       </p>
       <br/>
       <p>

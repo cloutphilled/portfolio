@@ -33,7 +33,7 @@ import AiFillGitlab from "react-icons";
       <BIconPersonFill class="bi"/>
     </template>
     <template #heading>Summary</template>
-    <p>Fullstack software developer who also shreds a mean guitar by making noisy music. Specializing in Front-End Development, I am passionate about bringing together creative designs with code.</p>
+    <p>Fullstack software developer & Digital Concept Developer who also shreds a mean guitar by making noisy music. Specializing in Front-End Development, I am passionate about bringing together creative designs with code.</p>
   </WelcomeItem>
 
   <WelcomeItem>
@@ -41,7 +41,7 @@ import AiFillGitlab from "react-icons";
       <BIconCodeSquare class="bi"/>
     </template>
     <template #heading>Toolkit</template>
-    <p>JavaScript, HTML, CSS, JavaScript, React, Angular, Vue, TypeScript, Java, SQL, PostgreSQL, Bootstrap, Tailwind CSS, Git, VS Code, Docker, Swagger, Spring, Springboot, REST, SuperCollider, Figma, XD, Photoshop, Premiere Pro, InDesign, Illustrator.</p>
+    <p>JavaScript, HTML, CSS, JavaScript, React, Angular, Vue, TypeScript, Java, SQL, PostgreSQL, Bootstrap, Tailwind CSS, Git, VS Code, Docker, Swagger, Spring, Springboot, REST, UX-design, Figma, XD, Photoshop, Premiere Pro, InDesign, Illustrator.</p>
   </WelcomeItem>
 
   
