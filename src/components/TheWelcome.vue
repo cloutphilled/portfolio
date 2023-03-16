@@ -60,15 +60,7 @@ import AiFillGitlab from "react-icons";
     <template #icon>
       <BIconFolderFill class="bi"/>
     </template>
-    <template #heading>Projects</template>
-    Here's a snippet of my projects:
-    <br/>
-
-    <p><a href="https://cloutphilled.github.io" target="_blank">TELOS</a> - my first coding project (vanilla JS) was part of my bachelor thesis.</p>
-    <p><a href="https://javascript-komputer-store.netlify.app" target="_blank">KomputerStore</a> - another project made with vanilla JS. (The API seems to be invalid currently) </p>
-    <p><a href="https://angular-pokemon-app.netlify.app/" target="_blank">Angular Pokemon App</a> - an app created with the Angular framework. Some of the features are missing due to the API handling user data is currently unavailable. </p>
-    <br/>
-    <p>More to be added...</p>
+    <template #heading>Placeholder</template>
   </WelcomeItem>
 </template>
 
