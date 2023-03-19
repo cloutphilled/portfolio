@@ -11,19 +11,18 @@
       <p>
         Hi! My name is Phillip. I'm a full stack software developer & digital
         concept developer with a big passion for music. I got into coding during
-        my bachelor's degree in "Digital Concept Development". I have a
-        love/hate relationship with coding - meaning that I hate it when the
-        code doesn't work. I'm sure the majority of coders have a similar
-        feeling. When I finally get the code to work, I feel like I'm on top of
-        the world. It's a very euphoric feeling.
+        my bachelor's degree in "Digital Concept Development". I really like to
+        code and find it incredibly satisfying. I really like that there's two
+        sides of it. One seems to focus on order and structure, while the other
+        can be insanely creative. I find it beautiful to see creativity being
+        expressed in logic designs.
       </p>
       <br/>
       <p>
         I get the same feeling whenever I'm playing music. It's quite the
         addicting feeling. In terms of coding I'm especially passionate about
-        front-end development. I guess it's because it incorporates creativity
-        and logical design. I always feel very proud of myself whenever I'm able
-        to create something that looks cool and feels amazing to use.
+        front-end development. I always feel very proud of myself whenever I'm
+        able to create something that looks cool and feels amazing to use.
       </p>
       <br/>
       <p>Check out my bands here:</p>
