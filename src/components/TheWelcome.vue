@@ -6,6 +6,7 @@ import EcosystemIcon from "./icons/IconEcosystem.vue";
 import CommunityIcon from "./icons/IconCommunity.vue";
 import SupportIcon from "./icons/IconSupport.vue";
 import AiFillGitlab from "react-icons";
+import { CoGitlab } from "oh-vue-icons";
 
 
 </script>
@@ -41,7 +42,7 @@ import AiFillGitlab from "react-icons";
       <BIconCodeSquare class="bi"/>
     </template>
     <template #heading>Toolkit</template>
-    <p>JavaScript, HTML, CSS, JavaScript, React, Angular, Vue, TypeScript, Java, SQL, PostgreSQL, Bootstrap, Tailwind CSS, Git, VS Code, Docker, Swagger, Spring, Springboot, REST, UX-design, Figma, XD, Photoshop, Premiere Pro, InDesign, Illustrator.</p>
+    <p>JavaScript, HTML, CSS, React, Angular, Vue, TypeScript, Java, SQL, PostgreSQL, Bootstrap, Tailwind CSS, Git, VS Code, Docker, Swagger, Spring, Springboot, REST, UX-design, Figma, XD, Photoshop, Premiere Pro, InDesign, Illustrator.</p>
   </WelcomeItem>
 
   
@@ -56,12 +57,12 @@ import AiFillGitlab from "react-icons";
 
   </WelcomeItem>
 
-  <WelcomeItem>
+  <!-- <WelcomeItem>
     <template #icon>
       <BIconFolderFill class="bi"/>
     </template>
     <template #heading>Placeholder</template>
-  </WelcomeItem>
+  </WelcomeItem> -->
 </template>
 
 
