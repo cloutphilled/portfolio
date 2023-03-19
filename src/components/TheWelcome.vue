@@ -6,6 +6,7 @@ import EcosystemIcon from "./icons/IconEcosystem.vue";
 import CommunityIcon from "./icons/IconCommunity.vue";
 import SupportIcon from "./icons/IconSupport.vue";
 import AiFillGitlab from "react-icons";
+import { CoGitlab } from "oh-vue-icons";
 
 
 </script>
@@ -41,7 +42,7 @@ import AiFillGitlab from "react-icons";
       <BIconCodeSquare class="bi"/>
     </template>
     <template #heading>Toolkit</template>
-    <p>JavaScript, HTML, CSS, JavaScript, React, Angular, Vue, TypeScript, Java, SQL, PostgreSQL, Bootstrap, Tailwind CSS, Git, VS Code, Docker, Swagger, Spring, Springboot, REST, UX-design, Figma, XD, Photoshop, Premiere Pro, InDesign, Illustrator.</p>
+    <p>JavaScript, HTML, CSS, React, Angular, Vue, TypeScript, Java, SQL, PostgreSQL, Bootstrap, Tailwind CSS, Git, VS Code, Docker, Swagger, Spring, Springboot, REST, UX-design, Figma, XD, Photoshop, Premiere Pro, InDesign, Illustrator.</p>
   </WelcomeItem>
 
   
@@ -56,20 +57,12 @@ import AiFillGitlab from "react-icons";
 
   </WelcomeItem>
 
-  <WelcomeItem>
+  <!-- <WelcomeItem>
     <template #icon>
       <BIconFolderFill class="bi"/>
     </template>
-    <template #heading>Projects</template>
-    Here's a snippet of my projects:
-    <br/>
-
-    <p><a href="https://cloutphilled.github.io" target="_blank">TELOS</a> - my first coding project (vanilla JS) was part of my bachelor thesis.</p>
-    <p><a href="https://javascript-komputer-store.netlify.app" target="_blank">KomputerStore</a> - another project made with vanilla JS. (The API seems to be invalid currently) </p>
-    <p><a href="https://angular-pokemon-app.netlify.app/" target="_blank">Angular Pokemon App</a> - an app created with the Angular framework. Some of the features are missing due to the API handling user data is currently unavailable. </p>
-    <br/>
-    <p>More to be added...</p>
-  </WelcomeItem>
+    <template #heading>Placeholder</template>
+  </WelcomeItem> -->
 </template>
 
 

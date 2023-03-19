@@ -19,10 +19,10 @@ import HelloWorld from "./components/HelloWorld.vue";
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About Me</RouterLink>
+        <RouterLink to="/projects">Projects</RouterLink>
       </nav>
     </div>
   </header>
-
   <RouterView />
 </template>
 
@@ -31,8 +31,6 @@ header {
   line-height: 1.5;
   max-height: 100vh;
 }
-
-
 
 body {
   background-color: rgb(18, 18, 18);
