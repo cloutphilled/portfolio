@@ -1,14 +1,6 @@
 <script setup lang="ts">
 import WelcomeItem from "./WelcomeItem.vue";
-import DocumentationIcon from "./icons/IconDocumentation.vue";
-import ToolingIcon from "./icons/IconTooling.vue";
-import EcosystemIcon from "./icons/IconEcosystem.vue";
-import CommunityIcon from "./icons/IconCommunity.vue";
-import SupportIcon from "./icons/IconSupport.vue";
-import AiFillGitlab from "react-icons";
-
-
-
+// import VuePdfEmbed from 'vue-pdf-embed';
 </script>
 
 <template>
@@ -45,16 +37,13 @@ import AiFillGitlab from "react-icons";
     <p>JavaScript, HTML, CSS, React, Angular, Vue, TypeScript, Java, SQL, PostgreSQL, Bootstrap, Tailwind CSS, Git, VS Code, Docker, Swagger, Spring, Springboot, REST, UX-design, Figma, XD, Photoshop, Premiere Pro, InDesign, Illustrator.</p>
   </WelcomeItem>
 
-  
-
   <WelcomeItem>
     <template #icon>
       <BIconFileEarmarkTextFill class="bi" />
     </template>
     <template #heading>Resume</template>
     <a href="https://drive.google.com/file/d/1_AVy6F5Mvr_g-fyi8LM5If-dD8sdtgn3/view?usp=share_link" target="_blank">My resume</a>
-
-
+    <!-- <vue-pdf-embed :source="source1" /> -->
   </WelcomeItem>
 
   <!-- <WelcomeItem>
@@ -64,5 +53,3 @@ import AiFillGitlab from "react-icons";
     <template #heading>Placeholder</template>
   </WelcomeItem> -->
 </template>
-
-
