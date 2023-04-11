@@ -1,7 +1,9 @@
 <template>
     <div class="about">
       <section>
-        <p><a href="https://semmler-case.netlify.app" target="_blank">SEMMLER interview case</a> - an HTML & CSS case from a front-end interview with the danish car import company: SEMMLER. I did get the job, but they unfortunately pulled out the deal due to their only frontend employee's medical leave. It was a pretty heavy blow to my self-esteem since the agreement had to be shut down. You live and you learn I guess.</p>
+        <p><a href="https://pfp-spotify-clone.netlify.app" target="_blank">Spotify Clone</a> - this clone was made with Vue. Pinia is used for state management. Vue-material-icons, uniqolor and tailwindCSS were all used for styling. It currently features the album 'Delude' from my band TELOS. The album was released on the 3rd of March 2023.</p>
+        <br/>
+        <p><a href="https://semmler-case.netlify.app" target="_blank">SEMMLER interview case</a> - an HTML & CSS case from a front-end interview with the danish car import company: SEMMLER. I did get the job, but they unfortunately pulled out the deal due to their only frontend employee's medical leave. It was a pretty heavy blow to my self-esteem since the agreement had to be shut down.</p>
         <br/>
         <p><a href="https://cloutphilled.github.io" target="_blank">TELOS</a> - my first coding project (vanilla JS) was part of my bachelor thesis. This was meant to be an expression for my band 'TELOS'. I wanted the UX-design to be an interactive reflection of the bands music. So that means the design had to not user friendly at all, since the music isn't.</p>
         <br/>
