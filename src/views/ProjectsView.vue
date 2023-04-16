@@ -1,7 +1,7 @@
 <template>
     <div class="about">
       <section>
-        <p><a href="https://pfp-spotify-clone.netlify.app" target="_blank">Spotify Clone</a> - this clone was made with Vue. Pinia is used for state management. Vue-material-icons, uniqolor and tailwindCSS were all used for styling. It currently features the album 'Delude' from my band TELOS. The album was released on the 3rd of March 2023.</p>
+        <p><a href="https://pfp-spotify-clone.netlify.app" target="_blank">Spotify Clone</a> - this clone was made with Vue. Pinia is used for state management. Vue-material-icons, uniqolor and tailwindCSS were all used for styling. The music featured in the app are from my two bands, 'Telos' & 'Regarding Ambiguity'.</p>
         <br/>
         <p><a href="https://semmler-case.netlify.app" target="_blank">SEMMLER interview case</a> - an HTML & CSS case from a front-end interview with the danish car import company: SEMMLER. I did get the job, but they unfortunately pulled out the deal due to their only frontend employee's medical leave. It was a pretty heavy blow to my self-esteem since the agreement had to be shut down.</p>
         <br/>
