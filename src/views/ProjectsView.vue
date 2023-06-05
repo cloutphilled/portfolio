@@ -9,9 +9,9 @@
         <br/>
         <p><a href="https://cloutphilled.github.io" target="_blank">TELOS</a> - my first coding project (vanilla JS) was part of my bachelor thesis. This was meant to be an expression for my band 'TELOS'. I wanted the UX-design to be an interactive reflection of the bands music. So that means the design had to not user friendly at all, since the music isn't.</p>
         <br/>
-        <p><a href="https://javascript-komputer-store.netlify.app" target="_blank">KomputerStore</a> - another project made with vanilla JS. (The API seems to be invalid currently) </p>
+        <p><a href="https://javascript-komputer-store.netlify.app" target="_blank">KomputerStore</a> - another project made with vanilla JS. (The API was hosted on Heroku, so I need to find another place to host the API.) </p>
         <br/>
-        <p><a href="https://angular-pokemon-app.netlify.app/" target="_blank">Angular Pokemon App</a> - an app created with the Angular framework. Some of the features are missing due to the API handling user data is currently unavailable. </p>
+        <p><a href="https://angular-pokemon-app.netlify.app/" target="_blank">Angular Pokemon App</a> - an app created with the Angular framework. Some of the features are missing due to the API handling user data was hosted on Heroku. So I need to find another place to host it. </p>
         <br/>
         <p>More to be added...</p>
       </section>
