@@ -34,7 +34,7 @@ import WelcomeItem from "./WelcomeItem.vue";
       <BIconCodeSquare class="bi"/>
     </template>
     <template #heading>Toolkit</template>
-    <p>JavaScript, HTML, CSS, React, Angular, Vue, TypeScript, Java, SQL, PostgreSQL, Bootstrap, Tailwind CSS, Git, VS Code, Docker, Swagger, Spring, Springboot, REST, UX-design, Figma, XD, Photoshop, Premiere Pro, InDesign, Illustrator.</p>
+    <p>JavaScript, HTML, CSS, React, Angular, Vue, Vite, VitePress, Front Matter, TypeScript, Java, SQL, PostgreSQL, Bootstrap, Tailwind CSS, Git, VS Code, Docker, Swagger, Spring, Springboot, REST, UX-design, Figma, XD, Photoshop, Premiere Pro, InDesign, Illustrator.</p>
   </WelcomeItem>
 
   <WelcomeItem>
