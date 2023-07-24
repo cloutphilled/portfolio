@@ -34,12 +34,6 @@ import WelcomeItem from "./WelcomeItem.vue";
       <BIconCodeSquare class="bi"/>
     </template>
     <template #heading>Toolkit</template>
-    
-
-<div>
-
-
-</div>
       <ul>
         <li>JavaScript</li>
         <li>HTML</li>
@@ -74,11 +68,7 @@ import WelcomeItem from "./WelcomeItem.vue";
         <li>InDesign</li>
         <li>Illustrator</li>
         <li>Wordpress</li>
-      </ul>
-     
-     
-    
-     
+      </ul>  
   </WelcomeItem>
 
   <WelcomeItem>
