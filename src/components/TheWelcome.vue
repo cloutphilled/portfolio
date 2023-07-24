@@ -34,7 +34,47 @@ import WelcomeItem from "./WelcomeItem.vue";
       <BIconCodeSquare class="bi"/>
     </template>
     <template #heading>Toolkit</template>
-    <p>JavaScript, HTML, CSS, React, Angular, Vue, Vite, VitePress, Front Matter, TypeScript, Java, SQL, PostgreSQL, Bootstrap, Tailwind CSS, Git, VS Code, Docker, Swagger, Spring, Springboot, REST, UX-design, Figma, XD, Photoshop, Premiere Pro, InDesign, Illustrator.</p>
+    
+
+<div>
+
+
+</div>
+      <ul>
+        <li>JavaScript</li>
+        <li>HTML</li>
+        <li>HTML</li>
+        <li>React</li>
+        <li>Angular</li>
+        <li>Vue</li>
+        <li>Vite</li>
+        <li>Front Matter</li>
+        <li>TypeScript</li>
+        <li>Java</li>
+        <li>SQL</li>
+        <li>PostgreSQL</li>
+        <li>Bootstrap</li>
+        <li>Tailwind CSS</li>
+        <li>Git</li>
+        <li>Docker</li>
+        <li>Swagger</li>
+        <li>Spring</li>
+        <li>Springboot</li>
+        <li>REST</li>
+        <li>Powershell</li>
+        <li>Microsoft Azure</li>
+        <li>UX-design</li>
+        <li>Figma</li>
+        <li>XD</li>
+        <li>Photoshop</li>
+        <li>Premiere Pro</li>
+        <li>InDesign</li>
+        <li>Illustrator</li>
+      </ul>
+     
+     
+    
+     
   </WelcomeItem>
 
   <WelcomeItem>
@@ -53,3 +93,17 @@ import WelcomeItem from "./WelcomeItem.vue";
     <template #heading>Placeholder</template>
   </WelcomeItem> -->
 </template>
+
+
+<style>
+ul{
+    list-style-type: none;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    columns: 3;
+    margin: 0;
+    justify-content: start;
+}
+
+
+</style>
