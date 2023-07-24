@@ -43,7 +43,7 @@ import WelcomeItem from "./WelcomeItem.vue";
       <ul>
         <li>JavaScript</li>
         <li>HTML</li>
-        <li>HTML</li>
+        <li>CSS</li>
         <li>React</li>
         <li>Angular</li>
         <li>Vue</li>
