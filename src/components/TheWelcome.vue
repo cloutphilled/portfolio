@@ -44,23 +44,26 @@ import WelcomeItem from "./WelcomeItem.vue";
         <li>JavaScript</li>
         <li>HTML</li>
         <li>CSS</li>
+        <li>TypeScript</li>
         <li>React</li>
         <li>Angular</li>
         <li>Vue</li>
         <li>Vite</li>
+        <li>Node.js</li>
+        <li>NEXT.js</li>
+        <li>NPM</li>
         <li>Front Matter</li>
-        <li>TypeScript</li>
         <li>Java</li>
-        <li>SQL</li>
-        <li>PostgreSQL</li>
+        <li>SQL/PostgreSQL</li>
         <li>Bootstrap</li>
         <li>Tailwind CSS</li>
         <li>Git</li>
         <li>Docker</li>
         <li>Swagger</li>
-        <li>Spring</li>
-        <li>Springboot</li>
+        <li>Spring/Springboot</li>
+        <li>Hibernate</li>
         <li>REST</li>
+        <li>Keycloak</li>
         <li>Powershell</li>
         <li>Microsoft Azure</li>
         <li>UX-design</li>
