@@ -70,6 +70,7 @@ import WelcomeItem from "./WelcomeItem.vue";
         <li>Premiere Pro</li>
         <li>InDesign</li>
         <li>Illustrator</li>
+        <li>Wordpress</li>
       </ul>
      
      
