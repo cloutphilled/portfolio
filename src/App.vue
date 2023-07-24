@@ -12,8 +12,9 @@ import HelloWorld from "./components/HelloWorld.vue";
       width="400"
       loading="eager"
     />
-
+    
     <div class="wrapper">
+      
       <HelloWorld msg="Phillip Friis Petersen" />
 
       <nav>
@@ -23,6 +24,7 @@ import HelloWorld from "./components/HelloWorld.vue";
       </nav>
     </div>
   </header>
+
   <RouterView />
 </template>
 
@@ -30,10 +32,6 @@ import HelloWorld from "./components/HelloWorld.vue";
 header {
   line-height: 1.5;
   max-height: 100vh;
-}
-
-body {
-  background-color: rgb(18, 18, 18);
 }
 
 .logo {

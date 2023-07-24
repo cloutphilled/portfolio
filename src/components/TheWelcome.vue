@@ -42,7 +42,7 @@ import WelcomeItem from "./WelcomeItem.vue";
       <BIconFileEarmarkTextFill class="bi" />
     </template>
     <template #heading>Resume</template>
-    <a href="https://drive.google.com/file/d/1_AVy6F5Mvr_g-fyi8LM5If-dD8sdtgn3/view?usp=share_link" target="_blank">My resume</a>
+    <a href="src\assets\PFP_CV_english.pdf" target="_blank">My resume</a>
     <!-- <vue-pdf-embed :source="source1" /> -->
   </WelcomeItem>
 
