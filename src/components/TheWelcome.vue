@@ -82,7 +82,7 @@ import WelcomeItem from "./WelcomeItem.vue";
       <BIconFileEarmarkTextFill class="bi" />
     </template>
     <template #heading>Resume</template>
-    <a href="src\assets\PFP_CV_english.pdf" target="_blank">My resume</a>
+    <a href="src/assets/PFP_CV_english.pdf" target="_blank">My resume</a>
     <!-- <vue-pdf-embed :source="source1" /> -->
   </WelcomeItem>
 
