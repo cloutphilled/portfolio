@@ -26,7 +26,7 @@ import WelcomeItem from "./WelcomeItem.vue";
       <BIconPersonFill class="bi"/>
     </template>
     <template #heading>Summary</template>
-    <p>Fullstack software developer & Digital Concept Developer who also shreds a mean guitar by making noisy music. Specializing in Frontend Development, I am passionate about bringing together creative designs with code.</p>
+    <p>Fullstack software developer & Digital Concept Developer who also shreds a mean guitar by making noisy music. Specializing in frontend development, I am passionate about bringing together creative designs with code.</p>
   </WelcomeItem>
 
   <WelcomeItem>
