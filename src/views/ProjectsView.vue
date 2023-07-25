@@ -5,9 +5,9 @@
         <br/>
         <p><a href="https://main--snazzy-baklava-a86072.netlify.app/" target="_blank">Documentation site</a> - I created this documentation site during my employment as IT-support in Frederiksberg municipality. The different guides were spread out on different shared drives, so I wanted to collect all of them in one place. Created with VitePress and Front Matter. Still work in progress.</p>
         <br/>
-        <p><a href="https://semmler-case.netlify.app" target="_blank">SEMMLER interview case</a> - an HTML & CSS case from a front-end interview with the danish car import company: SEMMLER. I did get the job, but they unfortunately pulled out the deal due to their only frontend employee's medical leave. It was a pretty heavy blow to my self-esteem since the agreement had to be shut down.</p>
+        <p><a href="https://semmler-case.netlify.app" target="_blank">SEMMLER interview case</a> - an HTML & CSS case from a frontend interview with the danish car import company: SEMMLER. I did get the job, but they unfortunately pulled out the deal due to their only frontend employee's medical leave. It was a pretty heavy blow to my self-esteem since the agreement had to be shut down.</p>
         <br/>
-        <p><a href="https://cloutphilled.github.io" target="_blank">TELOS</a> - my first coding project (vanilla JS) was part of my bachelor thesis. This was meant to be an expression for my band 'TELOS'. I wanted the UX-design to be an interactive reflection of the bands music. So that means the design had to not user friendly at all, since the music isn't.</p>
+        <p><a href="https://cloutphilled.github.io" target="_blank">TELOS</a> - my first coding project (vanilla JS) was part of my bachelor thesis. This was meant to be a creative expression that should resemble my band 'TELOS'. I wanted the UX-design to be an interactive expression of the bands music. So that means the design had to not user friendly at all, since the music isn't.</p>
         <br/>
         <p><a href="https://javascript-komputer-store.netlify.app" target="_blank">KomputerStore</a> - another project made with vanilla JS. (The API was hosted on Heroku, so I need to find another place to host the API.) </p>
         <br/>
