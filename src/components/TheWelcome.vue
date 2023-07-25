@@ -43,9 +43,9 @@ import WelcomeItem from "./WelcomeItem.vue";
         <li>Angular</li>
         <li>Vue</li>
         <li>Vite</li>
+        <li>VitePress</li>
         <li>Node.js</li>
         <li>NEXT.js</li>
-        <li>NPM</li>
         <li>Front Matter</li>
         <li>Java</li>
         <li>SQL/PostgreSQL</li>
