@@ -64,7 +64,7 @@ import WelcomeItem from "./WelcomeItem.vue";
         <li>Figma</li>
         <li>Adobe XD</li>
         <li>Adobe Photoshop</li>
-        <li>Adobe Premiere Pro</li>
+        <li>Adobe PremierePro</li>
         <li>Adobe InDesign</li>
         <li>Adobe Illustrator</li>
         <li>WordPress</li>
