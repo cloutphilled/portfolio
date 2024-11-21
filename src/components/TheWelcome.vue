@@ -93,7 +93,7 @@ import WelcomeItem from "./WelcomeItem.vue";
 ul{
     list-style-type: none;
     -webkit-columns: 3;
-    -moz-columns: 3;
+    -moz-columns: 4;
     columns: 3;
     margin: 0;
     justify-content: start;
