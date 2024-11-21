@@ -62,11 +62,11 @@ import WelcomeItem from "./WelcomeItem.vue";
         <li>Microsoft Azure</li>
         <li>UX-design</li>
         <li>Figma</li>
-        <li>Adobe XD</li>
-        <li>Adobe Photoshop</li>
-        <li>Adobe PremierePro</li>
-        <li>Adobe InDesign</li>
-        <li>Adobe Illustrator</li>
+        <li>AdobeXD</li>
+        <li>AdobePhotoshop</li>
+        <li>AdobePremierePro</li>
+        <li>AdobeInDesign</li>
+        <li>AdobeIllustrator</li>
         <li>WordPress</li>
       </ul>  
   </WelcomeItem>
@@ -93,7 +93,7 @@ import WelcomeItem from "./WelcomeItem.vue";
 ul{
     list-style-type: none;
     -webkit-columns: 3;
-    -moz-columns: 4;
+    -moz-columns: 3;
     columns: 3;
     margin: 0;
     justify-content: start;
