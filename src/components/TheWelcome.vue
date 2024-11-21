@@ -35,6 +35,7 @@ import WelcomeItem from "./WelcomeItem.vue";
     </template>
     <template #heading>Toolkit</template>
       <ul>
+        <li>PowerShell</li>
         <li>JavaScript</li>
         <li>HTML</li>
         <li>CSS</li>
@@ -58,16 +59,15 @@ import WelcomeItem from "./WelcomeItem.vue";
         <li>Hibernate</li>
         <li>REST</li>
         <li>Keycloak</li>
-        <li>Powershell</li>
         <li>Microsoft Azure</li>
         <li>UX-design</li>
         <li>Figma</li>
-        <li>XD</li>
-        <li>Photoshop</li>
-        <li>Premiere Pro</li>
-        <li>InDesign</li>
-        <li>Illustrator</li>
-        <li>Wordpress</li>
+        <li>Adobe XD</li>
+        <li>Adobe Photoshop</li>
+        <li>Adobe Premiere Pro</li>
+        <li>Adobe InDesign</li>
+        <li>Adobe Illustrator</li>
+        <li>WordPress</li>
       </ul>  
   </WelcomeItem>
 
