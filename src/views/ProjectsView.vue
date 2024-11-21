@@ -3,7 +3,7 @@
       <section>
         <p><a href="https://pfp-spotify-clone.netlify.app" target="_blank">Spotify Clone</a> - this clone was made with Vue. Pinia is used for state management. Vue-material-icons, uniqolor and tailwindCSS were all used for styling. The music featured in the app are from my two bands, 'Telos' & 'Regarding Ambiguity'.</p>
         <br/>
-        <p><a href="https://main--snazzy-baklava-a86072.netlify.app/" target="_blank">Documentation site</a> - I created this documentation site during my employment as IT-support in Frederiksberg municipality. The different guides were spread out on different shared drives, so I wanted to collect all of them in one place. Created with VitePress and Front Matter. Still work in progress.</p>
+        <p><a href="https://main--snazzy-baklava-a86072.netlify.app/" target="_blank">Documentation site</a> - I created this documentation site during my employment as IT-support in Frederiksberg municipality. The different guides were spread out on different shared drives, so I wanted to collect all of them in one place. Created with VitePress and Front Matter. Never finished this project since I stopped being emlpoyed at Frederiksberg municipality July 2023.</p>
         <br/>
         <p><a href="https://semmler-case.netlify.app" target="_blank">SEMMLER interview case</a> - an HTML & CSS case from a frontend interview with the danish car import company: SEMLER. I did get the job, but they unfortunately pulled out the deal due to their only frontend employee's medical leave. It was a pretty heavy blow to my self-esteem since the agreement had to be shut down.</p>
         <br/>
