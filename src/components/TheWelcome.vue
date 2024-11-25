@@ -40,9 +40,16 @@ import WelcomeItem from "./WelcomeItem.vue";
     </template>
     <template #heading>Summary</template>
     <p>
-      Fullstack software developer & Digital Concept Developer who also shreds a
-      mean guitar by making noisy music. Specializing in frontend development, I
-      am passionate about bringing together creative designs with code.
+      Currently employed in the Internal IT department of TestHuset.
+      I really enjoy PowerShell scripting since it scratches my itch for writing code. 
+      I like the way PowerShell feels to write in scripting and in the terminal, while also being more fun than writing code for fullstack applications.
+      Especially with the whole automation and optimization interactions with Active Directory, Azure, M365, Exchange, SharePoint etc.
+    </p>
+    <br />
+    <p>
+      My biggest passion has to be playing, creating and performing in music.
+      Especially in Hardcore like Post-hardcore, Mathcore, Screamo, Emo etch.
+      Check out 'About' for more info.
     </p>
   </WelcomeItem>
 
@@ -55,6 +62,7 @@ import WelcomeItem from "./WelcomeItem.vue";
       <p>PowerShell</p>
       <p>Microsoft Azure</p>
       <p>Microsoft 365</p>
+      <p>Active Directory</p>
       <p>Micosoft Intune</p>
       <p>Sharepoint</p>
       <p>JavaScript</p>
