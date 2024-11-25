@@ -57,7 +57,7 @@ import WelcomeItem from "./WelcomeItem.vue";
       <p>Microsoft 365</p>
       <p>Active Directory</p>
       <p>Micosoft Intune</p>
-      <p>Sharepoint</p>
+      <p>SharePoint</p>
       <p>JavaScript</p>
       <p>HTML</p>
       <p>CSS</p>
