@@ -41,15 +41,8 @@ import WelcomeItem from "./WelcomeItem.vue";
     <template #heading>Summary</template>
     <p>
       Currently employed in the Internal IT department of TestHuset.
-      I really enjoy PowerShell scripting since it scratches my itch for writing code. 
-      I like the way PowerShell feels to write in scripting and in the terminal, while also being more fun than writing code for fullstack applications.
-      Especially with the whole automation and optimization interactions with Active Directory, Azure, M365, Exchange, SharePoint etc.
-    </p>
-    <br />
-    <p>
-      My biggest passion has to be playing, creating and performing in music.
-      Especially in Hardcore like Post-hardcore, Mathcore, Screamo, Emo etch.
-      Check out 'About' for more info.
+      I am responsible for the maintenance as well as administrating the IT-flow.
+      I really enjoy PowerShell. 
     </p>
   </WelcomeItem>
 
