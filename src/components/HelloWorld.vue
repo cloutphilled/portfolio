@@ -8,7 +8,7 @@ defineProps<{
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h2>
-      Systems administrator & PowerShell fanatic
+      Systems administrator & PowerShell lover
         </h2>
   </div>
 </template>

@@ -9,20 +9,17 @@
         loading="eager"
       />
       <p>
-        Hi! My name is Phillip. I'm a full stack software developer & digital
-        concept developer with a big passion for music. I got into coding during
-        my bachelor's degree in "Digital Concept Development". I really like to
-        code and find it incredibly satisfying. I really like that there's two
-        sides of it. One seems to focus on order and structure, while the other
-        can be insanely creative. I find it beautiful to see creativity being
-        expressed in logic designs.
+        Hi! My name is Phillip. I'm currently a systems administrator/engineer &
+        I have a degree in digital concept development. I got into coding during
+        my bachelor's degree in "Digital Concept Development". I fell in love
+        with it when I saw how certain keywords changed color. That really
+        intrigued me. So I made a decision that I wanted to have a career in IT.
       </p>
       <br />
       <p>
-        I get the same feeling whenever I'm playing music. It's quite the
-        addicting feeling. In terms of coding I'm especially passionate about
-        frontend development. I always feel very proud of myself whenever I'm
-        able to create something that looks cool and feels amazing to use.
+        In my spare time I love to play music. It's quite the addicting feeling.
+        Particually in the world of Hardcore. I'm especially really fond of Emo,
+        Post-hardcore, Screamo, Mathcore etc.
       </p>
       <br />
       <p>Check out my bands here:</p>
