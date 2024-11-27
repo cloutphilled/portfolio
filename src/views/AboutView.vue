@@ -12,8 +12,9 @@
         Hi! My name is Phillip. I'm currently a systems administrator/engineer &
         I have a degree in digital concept development. I got into coding during
         my bachelor's degree in "Digital Concept Development". I fell in love
-        with it when I saw how certain keywords changed color. That really
-        intrigued me. So I made a decision that I wanted to have a career in IT.
+        with it when I saw how the syntax highlighting made keywords change
+        color. That really intrigued me because it looked to pretty to me. I
+        made a decision that I wanted to have a career in IT.
       </p>
       <br />
       <p>
