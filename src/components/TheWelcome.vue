@@ -14,19 +14,19 @@ import WelcomeItem from "./WelcomeItem.vue";
       target="_blank"
       ><BIconEnvelopeFill class="bi"
     /></a>
-    &nbsp
+    &nbsp;
     <a href="https://github.com/cloutphilled" target="_blank"
       ><BIconGithub class="bi"
     /></a>
-    &nbsp
+    &nbsp;
     <a href="https://gitlab.com/cloutphilled" target="_blank"
       ><BIconGit class="bi"
     /></a>
-    &nbsp
+    &nbsp;
     <a href="https://instagram.com/clout_philled" target="_blank"
       ><BIconInstagram class="bi"
     /></a>
-    &nbsp
+    &nbsp;
     <a
       href="https://www.linkedin.com/in/phillip-friis-petersen-2184791b2/"
       target="_blank"
@@ -40,9 +40,9 @@ import WelcomeItem from "./WelcomeItem.vue";
     </template>
     <template #heading>Summary</template>
     <p>
-      Currently employed in the Internal IT department of TestHuset.
-      I am responsible for the maintenance as well as administrating the IT-flow.
-      I really enjoy PowerShell. 
+      Currently employed in the Internal IT department of TestHuset. I am
+      responsible for the maintenance as well as administrating the IT-flow. I 
+      really enjoy PowerShell.
     </p>
   </WelcomeItem>
 
