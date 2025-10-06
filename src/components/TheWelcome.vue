@@ -55,12 +55,13 @@ import WelcomeItem from "./WelcomeItem.vue";
       <p>PowerShell</p>
       <p>Microsoft Azure</p>
       <p>Microsoft 365</p>
-      <p>Active Directory</p>
       <p>Micosoft Intune</p>
+      <p>Active Directory</p>
       <p>SharePoint</p>
-      <p>JavaScript</p>
+      <p>Git</p>
       <p>HTML</p>
       <p>CSS</p>
+      <p>JavaScript</p>
       <p>TypeScript</p>
       <p>Vue</p>
       <p>Vite</p>
@@ -74,7 +75,6 @@ import WelcomeItem from "./WelcomeItem.vue";
       <p>SQL/PostgreSQL</p>
       <p>Bootstrap</p>
       <p>Tailwind CSS</p>
-      <p>Git</p>
       <p>Docker</p>
       <p>Swagger</p>
       <p>Spring/Springboot</p>
@@ -83,7 +83,7 @@ import WelcomeItem from "./WelcomeItem.vue";
       <p>Keycloak</p>
       <p>UX-design</p>
       <p>Figma</p>
-      <p>AdobeXD</p>
+      <p>Adobe XD</p>
       <p>Adobe Photoshop</p>
       <p>Adobe PremierePro</p>
       <p>Adobe InDesign</p>
