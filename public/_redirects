@@ -1,0 +1,5 @@
+# Serve actual project files
+/projects/*  /projects/:splat  200
+
+# Vue Router routes - fallback to index.html
+/*  /index.html  200
