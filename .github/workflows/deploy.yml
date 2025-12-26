@@ -88,7 +88,7 @@ jobs:
         working-directory: angular-pokemon-app
 
       - name: Copy angular-pokemon-app build
-        run: cp -r ../angular-pokemon-app/dist/pokemon-app portfolio/public/projects/angular-pokemon-app
+        run: cp -r ../angular-pokemon-app/dist/ng-pokemontrainer portfolio/public/projects/angular-pokemon-app
         working-directory: portfolio
 
       - name: Build portfolio
