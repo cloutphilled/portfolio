@@ -1,0 +1,105 @@
+name: Build and Deploy to Netlify
+
+on:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout portfolio
+        uses: actions/checkout@v4
+        with:
+          path: portfolio
+
+      - name: Checkout full-of-noise
+        uses: actions/checkout@v4
+        with:
+          repository: cloutphilled/full-of-noise
+          path: full-of-noise
+
+      - name: Checkout TELOS
+        uses: actions/checkout@v4
+        with:
+          repository: cloutphilled/TELOS
+          path: TELOS
+
+      - name: Checkout SEMMLER-frontend
+        uses: actions/checkout@v4
+        with:
+          repository: cloutphilled/SEMMLER-frontend
+          path: SEMMLER-frontend
+
+      - name: Checkout it-support-docs
+        uses: actions/checkout@v4
+        with:
+          repository: cloutphilled/it-support-docs
+          path: it-support-docs
+
+      - name: Checkout angular-pokemon-app
+        uses: actions/checkout@v4
+        with:
+          repository: cloutphilled/angular-pokemon-app
+          path: angular-pokemon-app
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: |
+            portfolio/package-lock.json
+            it-support-docs/package-lock.json
+            angular-pokemon-app/package-lock.json
+
+      - name: Install portfolio dependencies
+        run: npm ci
+        working-directory: portfolio
+
+      - name: Install it-support-docs dependencies
+        run: npm ci
+        working-directory: it-support-docs
+
+      - name: Install angular-pokemon-app dependencies
+        run: npm ci
+        working-directory: angular-pokemon-app
+
+      - name: Copy static projects
+        run: |
+          mkdir -p portfolio/public/projects
+          cp -r ../SEMMLER-frontend portfolio/public/projects/SEMMLER-frontend
+          cp -r ../TELOS portfolio/public/projects/TELOS
+          cp -r ../full-of-noise portfolio/public/projects/full-of-noise
+        working-directory: portfolio
+
+      - name: Build it-support-docs
+        run: npm run docs:build
+        working-directory: it-support-docs
+
+      - name: Copy it-support-docs build
+        run: cp -r ../it-support-docs/docs/.vitepress/dist portfolio/public/projects/it-support-docs
+        working-directory: portfolio
+
+      - name: Build angular-pokemon-app
+        run: npm run build
+        working-directory: angular-pokemon-app
+
+      - name: Copy angular-pokemon-app build
+        run: cp -r ../angular-pokemon-app/dist/pokemon-app portfolio/public/projects/angular-pokemon-app
+        working-directory: portfolio
+
+      - name: Build portfolio
+        run: npm run build
+        working-directory: portfolio
+
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v3
+        with:
+          publish-dir: './portfolio/dist'
+          production-deploy: true
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}

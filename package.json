@@ -11,7 +11,8 @@
     "type-check": "vue-tsc --noEmit -p tsconfig.vitest.json --composite false",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "build:projects": "powershell -ExecutionPolicy Bypass -File ./scripts/build-projects.ps1",
-    "build:all": "npm run build:projects && npm run build"
+    "build:all": "npm run build:projects && npm run build",
+    "deploy": "npm run build:all && netlify deploy --prod --dir=dist"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.1",
