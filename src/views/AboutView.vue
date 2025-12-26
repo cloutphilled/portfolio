@@ -86,7 +86,7 @@
   clear: both;
 }
 
-.logo {
+.about .logo {
   display: block;
   margin-left: auto;
   margin-right: auto;

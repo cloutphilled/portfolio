@@ -32,5 +32,38 @@ a,
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
-  
+
+  .about {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+  }
+
+  .about section {
+    width: 100%;
+    flex: 1;
+  }
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Shared layout styles */
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }

@@ -1,47 +1,152 @@
 <template>
-    <div class="about">
-      <section>
-        <p><a href="https://pfp-spotify-clone.netlify.app" target="_blank">Spotify Clone</a> - this clone was made with Vue. Pinia is used for state management. Vue-material-icons, uniqolor and tailwindCSS were all used for styling. The music featured in the app are from my two bands, 'Telos' & 'Regarding Ambiguity'.</p>
-        <br/>
-        <p><a href="https://main--snazzy-baklava-a86072.netlify.app/" target="_blank">Documentation site</a> - I created this documentation site during my employment as IT-support in Frederiksberg municipality. The different guides were spread out on different shared drives, so I wanted to collect all of them in one place. Created with VitePress and Front Matter. Never finished this project since I stopped being emlpoyed at Frederiksberg municipality July 2023.</p>
-        <br/>
-        <p><a href="https://semmler-case.netlify.app" target="_blank">SEMMLER interview case</a> - an HTML & CSS case from a frontend interview with the danish car import company: SEMLER. I did get the job, but they unfortunately pulled out the deal due to their only frontend developer's medical leave.</p>
-        <br/>
-        <p><a href="https://cloutphilled.github.io" target="_blank">TELOS</a> - my first coding project (vanilla JS) was part of my bachelor thesis. This was meant to be a creative expression that should resemble my band 'TELOS'. I wanted the UX-design to be an interactive expression of the bands music. So that means the design had to not user friendly at all, since the music isn't.</p>
-        <br/>
-        <p><a href="https://javascript-komputer-store.netlify.app" target="_blank">KomputerStore</a> - another project made with vanilla JS. (The API was hosted on Heroku, so I need to find another place to host the API.) </p>
-        <br/>
-        <p><a href="https://angular-pokemon-app.netlify.app/" target="_blank">Angular Pokemon App</a> - an app created with the Angular framework. Some of the features are missing due to the API handling user data was hosted on Heroku. So I need to find another place to host it. </p>
-        <br/>
-        <p>More to be added...</p>
-      </section>
-    </div>
+  <div class="about">
+    <section>
+      <div class="projects-grid">
+        <a 
+          v-for="project in projects" 
+          :key="project.slug"
+          :href="`/projects/${project.slug}/`"
+          class="project-card"
+        >
+          <div class="project-icon">
+            <img v-if="project.iconImg" :src="project.iconImg" alt="" class="icon-img" />
+            <span v-else>{{  project.icon }}</span>
+          </div>
+          <h2>{{ project.name }}</h2>
+          <div class="tech-icons">
+            <img v-for="tech in project.techStack" :key="tech" :src="techIcons[tech]" :alt="tech" :title="tech" class="tech-icon" />
+          </div>
+          <p class="description">{{ project.description }}</p>
+        </a>
+      </div>
+    </section>
+  </div>
 </template>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
+<script setup lang="ts">
+interface Project {
+  slug: string;
+  name: string;
+  techStack: string[];
+  icon?: string;
+  iconImg?: string;
+  description: string;
+}
+
+const techIcons: Record<string, string> = {
+  'HTML': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
+  'CSS': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
+  'JavaScript': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
+  'TypeScript': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
+  'Vue': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg',
+  'Angular': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg',
+  'Bootstrap': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg',
+  'TailwindCSS': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg',
+  'p5.js': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/p5js/p5js-original.svg',
+  'VitePress': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg',
+  'Markdown': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg',
+  'RxJS': 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rxjs/rxjs-original.svg',
+};
+
+const projects: Project[] = [
+  {
+    slug: 'full-of-noise',
+    name: 'Full of Noise',
+    techStack: ['HTML', 'CSS', 'JavaScript'],
+    iconImg: new URL('@/assets/a0598543727_10-removebg-preview.png', import.meta.url).href,
+    description: 'A music player for my releases with TELOS & Regarding Ambiguity.'
+  },
+  {
+    slug: 'telos',
+    name: 'TELOS',
+    techStack: ['HTML', 'CSS', 'JavaScript', 'p5.js'],
+    iconImg: new URL('@/assets/telos_moon2_white.png', import.meta.url).href,
+    description: 'My first coding project - an interactive creative expression for my band TELOS.'
+  },
+  {
+    slug: 'it-support-docs',
+    name: 'IT Support Documentation',
+    techStack: ['VitePress', 'Vue', 'Markdown'],
+    iconImg: new URL('@/assets/frederiksberg_kommune_coa.svg', import.meta.url).href,
+    description: 'Documentation site created during my IT-support role at Frederiksberg municipality.'
+  },
+  {
+    slug: 'semmler-frontend',
+    name: 'SEMLER Interview Case',
+    techStack: ['HTML', 'CSS'],
+    iconImg: new URL('@/assets/semler-gruppen-vector-logo.svg', import.meta.url).href,
+    description: 'Frontend case from an interview with the Danish car import company SEMLER.'
+  },
+  {
+    slug: 'angular-pokemon-app',
+    name: 'Pokemon Trainer App',
+    techStack: ['Angular', 'TypeScript', 'Bootstrap', 'TailwindCSS', 'RxJS'],
+    iconImg: new URL('@/assets/pokeball.gif', import.meta.url).href,
+    description: 'A Pokemon trainer app built with Angular.'
   }
+];
+</script>
+
+<style>
+.project-card {
+  display: grid;
+  grid-template-rows: 120px 3.5rem auto 1fr;
+  gap: 0.5rem;
+  padding: 1.5rem;
+  border: 1px solid #444;
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s, border-color 0.2s, box-shadow 0.2s;
+  background: #2a2a2a;
+  text-align: center;
+  height: 100%;
 }
 
-.column {
-  float: left;
-  width: 50%;
+.project-card:hover {
+  transform: translateY(-4px);
+  border-color: #646cff;
+  box-shadow: 0 8px 24px rgba(100, 108, 255, 0.15);
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.project-icon {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
-.logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.project-card h2 {
+  font-size: 1.25rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech-icons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+  width: 100%;
+}
+
+.tech-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
+.project-card .description {
+  font-size: 0.9rem;
+  color: #aaa;
+  line-height: 1.5;
+  flex-grow: 1;
+}
+
+.icon-img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 }
 </style>
