@@ -1,9 +1,8 @@
 name: Build and Deploy to Netlify
 
 on:
-  # Disabled auto-deploy - use manual trigger or local deploy
-  # push:
-  #   branches: [main, master]
+  push:
+    branches: [main, master]
   workflow_dispatch:
 
 jobs:
@@ -70,10 +69,10 @@ jobs:
 
       - name: Copy static projects
         run: |
-          mkdir -p portfolio/public/projects
-          cp -r ../SEMLER-frontend portfolio/public/projects/semler-frontend
-          cp -r ../TELOS portfolio/public/projects/telos
-          cp -r ../full-of-noise portfolio/public/projects/full-of-noise
+          mkdir -p public/projects
+          cp -r ../SEMLER-frontend public/projects/semler-frontend
+          cp -r ../TELOS public/projects/telos
+          cp -r ../full-of-noise public/projects/full-of-noise
         working-directory: portfolio
 
       - name: Build it-support-docs
@@ -81,7 +80,7 @@ jobs:
         working-directory: it-support-docs
 
       - name: Copy it-support-docs build
-        run: cp -r ../it-support-docs/docs/.vitepress/dist portfolio/public/projects/it-support-docs
+        run: cp -r ../it-support-docs/docs/.vitepress/dist public/projects/it-support-docs
         working-directory: portfolio
 
       - name: Build angular-pokemon-app
@@ -89,7 +88,7 @@ jobs:
         working-directory: angular-pokemon-app
 
       - name: Copy angular-pokemon-app build
-        run: cp -r ../angular-pokemon-app/dist/ng-pokemontrainer portfolio/public/projects/angular-pokemon-app
+        run: cp -r ../angular-pokemon-app/dist/ng-pokemontrainer public/projects/angular-pokemon-app
         working-directory: portfolio
 
       - name: Build portfolio
