@@ -95,6 +95,14 @@ jobs:
         run: npm run build
         working-directory: portfolio
 
+      - name: Debug - List dist contents
+        run: |
+          echo "=== dist/projects contents ==="
+          ls -la dist/projects/ || echo "No projects folder!"
+          echo "=== dist/projects subfolders ==="
+          ls -la dist/projects/*/ || echo "No subfolders!"
+        working-directory: portfolio
+
       - name: Deploy to Netlify
         run: |
           npm install -g netlify-cli
