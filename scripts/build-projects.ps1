@@ -7,7 +7,7 @@ $projectsOutput = "$portfolioRoot\public\projects"
 
 # Back button HTML to inject into all project HTML files
 $backButton = @'
-<a href="/projects" id="portfolio-back-btn" onclick="window.location.href='/projects';return false;" style="position:fixed;top:16px;left:16px;z-index:99999;background:#1a1a1a;color:#fff;padding:8px 16px;border-radius:8px;text-decoration:none;font-family:system-ui,sans-serif;font-size:14px;display:flex;align-items:center;gap:6px;box-shadow:0 2px 8px rgba(0,0,0,0.3);" onmouseover="this.style.background='#333'" onmouseout="this.style.background='#1a1a1a'"><img src="/ponyta.png" style="width:24px;height:24px;object-fit:contain;" alt="" /> Portfolio</a>
+<a href="/projects" id="portfolio-back-btn" onclick="window.location.href='/projects';return false;" style="position:fixed;top:16px;left:16px;z-index:99999;background:#1a1a1a;color:#fff;padding:8px 16px;border-radius:8px;text-decoration:none;font-family:system-ui,sans-serif;font-size:14px;display:flex;align-items:center;gap:6px;box-shadow:0 2px 8px rgba(0,0,0,0.3);" onmouseover="this.style.background='#333'" onmouseout="this.style.background='#1a1a1a'"><img src="/077Ponyta.png" style="width:24px;height:24px;object-fit:contain;" alt="" /> Portfolio</a>
 '@
 
 # Favicon mapping for each project
@@ -16,7 +16,7 @@ $projectFavicons = @{
     "telos" = '<link rel="icon" type="image/png" href="/icons/telos.png">'
     "it-support-docs" = '<link rel="icon" type="image/svg+xml" href="/icons/frederiksberg.svg">'
     "semler-frontend" = '<link rel="icon" type="image/svg+xml" href="/icons/semler.svg">'
-    "angular-pokemon-app" = '<link rel="icon" type="image/gif" href="/icons/pokeball.gif">'
+    "angular-pokemon-app" = '<link rel="icon" type="image/png" href="/icons/ponyta.png">'
 }
 
 function Inject-BackButtonAndFavicon {

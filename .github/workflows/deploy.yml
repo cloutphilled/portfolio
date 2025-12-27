@@ -95,7 +95,7 @@ jobs:
 
       - name: Inject back button into project HTML files
         run: |
-          BACK_BUTTON='<a href="/projects" id="portfolio-back-btn" onclick="window.location.href='"'"'/projects'"'"';return false;" style="position:fixed;top:16px;left:16px;z-index:99999;background:#1a1a1a;color:#fff;padding:8px 16px;border-radius:8px;text-decoration:none;font-family:system-ui,sans-serif;font-size:14px;display:flex;align-items:center;gap:6px;box-shadow:0 2px 8px rgba(0,0,0,0.3);" onmouseover="this.style.background='"'"'#333'"'"'" onmouseout="this.style.background='"'"'#1a1a1a'"'"'"><img src="/icons/ponyta.png" style="width:24px;height:24px;object-fit:contain;" alt="" /> Portfolio</a>'
+          BACK_BUTTON='<a href="/projects" id="portfolio-back-btn" onclick="window.location.href='"'"'/projects'"'"';return false;" style="position:fixed;top:16px;left:16px;z-index:99999;background:#1a1a1a;color:#fff;padding:8px 16px;border-radius:8px;text-decoration:none;font-family:system-ui,sans-serif;font-size:14px;display:flex;align-items:center;gap:6px;box-shadow:0 2px 8px rgba(0,0,0,0.3);" onmouseover="this.style.background='"'"'#333'"'"'" onmouseout="this.style.background='"'"'#1a1a1a'"'"'"><img src="/077Ponyta.png" style="width:24px;height:24px;object-fit:contain;" alt="" /> Portfolio</a>'
           find public/projects -name "*.html" -type f | while read file; do
             if ! grep -q "portfolio-back-btn" "$file"; then
               sed -i "s|</body>|${BACK_BUTTON}</body>|" "$file"
