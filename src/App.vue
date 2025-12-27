@@ -2,7 +2,7 @@
 import { RouterLink, RouterView, useRoute } from "vue-router";
 import { computed } from "vue";
 
-import migImg from "@/assets/mig.png";
+import migImg from "@/assets/mig.jpg";
 import aboutImg from "@/assets/@anna.borgkvist-00056.jpg";
 import projectsImg from "@/assets/@anna.borgkvist-09925.jpg";
 import moonOverlay from "@/assets/Telos_moon2_white.png";
