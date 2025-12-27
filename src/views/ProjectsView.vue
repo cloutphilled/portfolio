@@ -71,7 +71,7 @@ const projects: Project[] = [
     description: 'Documentation site created during my IT-support role at Frederiksberg municipality.'
   },
   {
-    slug: 'semmler-frontend',
+    slug: 'semler-frontend',
     name: 'SEMLER Interview Case',
     techStack: ['HTML', 'CSS'],
     iconImg: new URL('@/assets/semler-gruppen-vector-logo.svg', import.meta.url).href,

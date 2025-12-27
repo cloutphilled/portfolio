@@ -27,11 +27,11 @@ jobs:
           repository: cloutphilled/TELOS
           path: TELOS
 
-      - name: Checkout SEMMLER-frontend
+      - name: Checkout SEMLER-frontend
         uses: actions/checkout@v4
         with:
-          repository: cloutphilled/SEMMLER-frontend
-          path: SEMMLER-frontend
+          repository: cloutphilled/SEMLER-frontend
+          path: SEMLER-frontend
 
       - name: Checkout it-support-docs
         uses: actions/checkout@v4
@@ -70,7 +70,7 @@ jobs:
       - name: Copy static projects
         run: |
           mkdir -p portfolio/public/projects
-          cp -r ../SEMMLER-frontend portfolio/public/projects/semmler-frontend
+          cp -r ../SEMLER-frontend portfolio/public/projects/semler-frontend
           cp -r ../TELOS portfolio/public/projects/telos
           cp -r ../full-of-noise portfolio/public/projects/full-of-noise
         working-directory: portfolio

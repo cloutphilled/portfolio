@@ -15,7 +15,7 @@ $projectFavicons = @{
     "full-of-noise" = '<link rel="icon" type="image/png" href="/icons/full-of-noise.png">'
     "telos" = '<link rel="icon" type="image/png" href="/icons/telos.png">'
     "it-support-docs" = '<link rel="icon" type="image/svg+xml" href="/icons/frederiksberg.svg">'
-    "semmler-frontend" = '<link rel="icon" type="image/svg+xml" href="/icons/semler.svg">'
+    "semler-frontend" = '<link rel="icon" type="image/svg+xml" href="/icons/semler.svg">'
     "angular-pokemon-app" = '<link rel="icon" type="image/gif" href="/icons/pokeball.gif">'
 }
 
@@ -39,17 +39,17 @@ New-Item -ItemType Directory -Force -Path $projectsOutput | Out-Null
 
 Write-Host "Building and copying projects..." -ForegroundColor Cyan
 
-# 1. SEMMLER-frontend (static - just copy)
-Write-Host "`n[1/5] Copying SEMMLER-frontend..." -ForegroundColor Yellow
-$semmlerSrc = "D:\Projects\SEMMLER-frontend"
-$semmlerDest = "$projectsOutput\semmler-frontend"
-Remove-Item -Recurse -Force $semmlerDest -ErrorAction SilentlyContinue
-New-Item -ItemType Directory -Force -Path $semmlerDest | Out-Null
-Copy-Item "$semmlerSrc\index.html" $semmlerDest
-Copy-Item "$semmlerSrc\style.css" $semmlerDest
-Copy-Item -Recurse "$semmlerSrc\static" "$semmlerDest\static"
-Inject-BackButtonAndFavicon "$semmlerDest\index.html" "semmler-frontend"
-Write-Host "SEMMLER-frontend copied!" -ForegroundColor Green
+# 1. SEMLER-frontend (static - just copy)
+Write-Host "`n[1/5] Copying SEMLER-frontend..." -ForegroundColor Yellow
+$semlerSrc = "D:\Projects\SEMLER-frontend"
+$semlerDest = "$projectsOutput\semler-frontend"
+Remove-Item -Recurse -Force $semlerDest -ErrorAction SilentlyContinue
+New-Item -ItemType Directory -Force -Path $semlerDest | Out-Null
+Copy-Item "$semlerSrc\index.html" $semlerDest
+Copy-Item "$semlerSrc\style.css" $semlerDest
+Copy-Item -Recurse "$semlerSrc\static" "$semlerDest\static"
+Inject-BackButtonAndFavicon "$semlerDest\index.html" "semler-frontend"
+Write-Host "SEMLER-frontend copied!" -ForegroundColor Green
 
 # 2. TELOS (static - just copy)
 Write-Host "`n[2/5] Copying TELOS..." -ForegroundColor Yellow

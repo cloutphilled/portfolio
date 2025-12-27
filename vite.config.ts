@@ -59,7 +59,7 @@ export default defineConfig({
                 "full-of-noise": "/icons/full-of-noise.png",
                 "telos": "/icons/telos.png",
                 "it-support-docs": "/icons/frederiksberg.svg",
-                "semmler-frontend": "/icons/semler.svg",
+                "semler-frontend": "/icons/semler.svg",
                 "angular-pokemon-app": "/icons/pokeball.gif",
               };
               const projectSlug = urlPath.split("/")[2];
