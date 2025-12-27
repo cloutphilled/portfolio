@@ -49,9 +49,9 @@ a,
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
-  width: 100%;
+  width: calc(100% + 150px);
   padding-top: 2rem;
   padding-bottom: 2rem;
 }

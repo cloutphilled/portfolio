@@ -86,10 +86,15 @@
   clear: both;
 }
 
+.about section {
+  width: calc(100% + 150px);
+}
+
 .about .logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 2rem;
   width: 100%;
   height: auto;
 }

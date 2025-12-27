@@ -81,7 +81,7 @@ const projects: Project[] = [
     slug: 'angular-pokemon-app',
     name: 'Pokemon Trainer App',
     techStack: ['Angular', 'TypeScript', 'Bootstrap', 'TailwindCSS', 'RxJS'],
-    iconImg: new URL('@/assets/pokeball.gif', import.meta.url).href,
+    iconImg: '/icons/ponyta.png',
     description: 'A Pokemon trainer app built with Angular.'
   }
 ];
