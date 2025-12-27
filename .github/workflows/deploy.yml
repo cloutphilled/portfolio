@@ -70,8 +70,8 @@ jobs:
       - name: Copy static projects
         run: |
           mkdir -p portfolio/public/projects
-          cp -r ../SEMMLER-frontend portfolio/public/projects/SEMMLER-frontend
-          cp -r ../TELOS portfolio/public/projects/TELOS
+          cp -r ../SEMMLER-frontend portfolio/public/projects/semmler-frontend
+          cp -r ../TELOS portfolio/public/projects/telos
           cp -r ../full-of-noise portfolio/public/projects/full-of-noise
         working-directory: portfolio
 
