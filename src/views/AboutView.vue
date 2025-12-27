@@ -9,12 +9,11 @@
         loading="eager"
       />
       <p>
-        Hi! My name is Phillip. I'm currently a systems administrator/engineer &
-        I have a degree in digital concept development. I got into coding during
-        my bachelor's degree in "Digital Concept Development". I fell in love
-        with it when I saw how the syntax highlighting made keywords change
-        color. That really intrigued me because it looked to pretty to me. I
-        made a decision that I wanted to have a career in IT.
+        Hi! My name is Phillip. I'm a Systems administrator specializing in cloud 
+        engineering and infrastructure. I have a degree in Digital Concept Development, 
+        which is where I first got into coding. I fell in love with it when I saw how 
+        the syntax highlighting made keywords change color. It really intrigued me because it looked pretty to me. So I made the decision to 
+        pursue a career in IT.
       </p>
       <br />
       <p>

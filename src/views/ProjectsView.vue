@@ -93,7 +93,7 @@ const projects: Project[] = [
   grid-template-rows: 120px 3.5rem auto 1fr;
   gap: 0.5rem;
   padding: 1.5rem;
-  border: 1px solid #444;
+  
   border-radius: 12px;
   text-decoration: none;
   color: inherit;
@@ -105,7 +105,6 @@ const projects: Project[] = [
 
 .project-card:hover {
   transform: translateY(-4px);
-  border-color: #646cff;
   box-shadow: 0 8px 24px rgba(100, 108, 255, 0.15);
 }
 

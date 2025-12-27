@@ -74,22 +74,36 @@ header {
 }
 
 nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
   width: 100%;
   font-size: 12px;
   text-align: center;
   margin-top: 2rem;
 }
 
-nav a.router-link-exact-active {
-  font-weight: bold;
-  color: #aaa;
-  text-decoration: underline;
-}
-
 nav a {
   display: inline-block;
-  padding: 0.5rem 1.25rem;
-  font-size: 1.1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
+}
+
+nav a:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+nav a.router-link-exact-active {
+  font-weight: bold;
+  color: hsla(160, 100%, 37%, 1);
+  background: rgba(0, 179, 119, 0.1);
 }
 
 @media (min-width: 1024px) {
