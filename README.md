@@ -1,52 +1,64 @@
-# pfp-portfolio
+# Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+Personal portfolio site for Phillip Friis Petersen - Platform Engineer & Musician.
 
-## Recommended IDE Setup
+## Tech Stack
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- Vue 3 + TypeScript
+- Vite
+- Netlify (hosting)
 
-## Type Support for `.vue` Imports in TS
+## Embedded Projects
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+The portfolio integrates 5 separate project repositories as embedded experiences at `/projects/[name]/`:
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+| Project | Description | Tech |
+|---------|-------------|------|
+| [FULL OF NOISE](https://github.com/cloutphilled/full-of-noise) | Custom music player | HTML, CSS, JS |
+| [TELOS](https://github.com/cloutphilled/TELOS) | Interactive band experience with p5.js | HTML, CSS, JS, p5.js |
+| [IT Support Docs](https://github.com/cloutphilled/it-support-docs) | VitePress documentation site | VitePress, Vue, Markdown |
+| [SEMLER](https://github.com/cloutphilled/SEMLER-frontend) | Frontend interview case | HTML, CSS |
+| [Pokemon Trainer App](https://github.com/cloutphilled/angular-pokemon-app) | Pokemon trainer app | Angular, TypeScript, Bootstrap, TailwindCSS |
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+## Local Development
 
 ```sh
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+### Build Projects Locally
+
+To build all embedded projects and the portfolio:
 
 ```sh
-npm run build
+npm run build:all
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+Or build projects separately then build the portfolio:
 
 ```sh
-npm run test:unit
+npm run build:projects  # PowerShell script - copies/builds all projects to public/projects/
+npm run build           # Vite build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+## Deployment
+
+### Automatic (GitHub Actions)
+
+Pushes to `main` trigger the GitHub Actions workflow which:
+1. Clones all 5 project repositories
+2. Builds projects that require it (it-support-docs, angular-pokemon-app)
+3. Copies everything to `public/projects/`
+4. Builds the portfolio
+5. Deploys to Netlify
+
+Requires secrets: `NETLIFY_AUTH_TOKEN`, `NETLIFY_SITE_ID`
+
+### Manual
 
 ```sh
-npm run lint
+npm run deploy  # Builds all and deploys to Netlify
 ```
+
+Requires [Netlify CLI](https://docs.netlify.com/cli/get-started/) to be installed and authenticated.

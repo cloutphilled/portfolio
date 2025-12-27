@@ -78,17 +78,29 @@ jobs:
       - name: Build it-support-docs
         run: npm run docs:build
         working-directory: it-support-docs
+        env:
+          VITEPRESS_BASE: /projects/it-support-docs/
 
       - name: Copy it-support-docs build
         run: cp -r ../it-support-docs/docs/.vitepress/dist public/projects/it-support-docs
         working-directory: portfolio
 
       - name: Build angular-pokemon-app
-        run: npm run build
+        run: npx ng build --base-href=/projects/angular-pokemon-app/
         working-directory: angular-pokemon-app
 
       - name: Copy angular-pokemon-app build
         run: cp -r ../angular-pokemon-app/dist/ng-pokemontrainer public/projects/angular-pokemon-app
+        working-directory: portfolio
+
+      - name: Inject back button into project HTML files
+        run: |
+          BACK_BUTTON='<a href="/projects" id="portfolio-back-btn" style="position:fixed;top:16px;left:16px;z-index:99999;background:#1a1a1a;color:#fff;padding:8px 16px;border-radius:8px;text-decoration:none;font-family:system-ui,sans-serif;font-size:14px;display:flex;align-items:center;gap:6px;box-shadow:0 2px 8px rgba(0,0,0,0.3);" onmouseover="this.style.background='"'"'#333'"'"'" onmouseout="this.style.background='"'"'#1a1a1a'"'"'"><img src="/icons/ponyta.png" style="width:24px;height:24px;object-fit:contain;" alt="" /> Portfolio</a>'
+          find public/projects -name "*.html" -type f | while read file; do
+            if ! grep -q "portfolio-back-btn" "$file"; then
+              sed -i "s|</body>|${BACK_BUTTON}</body>|" "$file"
+            fi
+          done
         working-directory: portfolio
 
       - name: Build portfolio

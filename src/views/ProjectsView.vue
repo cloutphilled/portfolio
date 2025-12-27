@@ -60,14 +60,14 @@ const projects: Project[] = [
     slug: 'telos',
     name: 'TELOS',
     techStack: ['HTML', 'CSS', 'JavaScript', 'p5.js'],
-    iconImg: new URL('@/assets/telos_moon2_white.png', import.meta.url).href,
+    iconImg: new URL('@/assets/Telos_moon2_white.png', import.meta.url).href,
     description: 'My first coding project - an interactive creative expression for my band TELOS.'
   },
   {
     slug: 'it-support-docs',
     name: 'IT Support Documentation',
     techStack: ['VitePress', 'Vue', 'Markdown'],
-    iconImg: new URL('@/assets/frederiksberg_kommune_coa.svg', import.meta.url).href,
+    iconImg: new URL('@/assets/Frederiksberg_Kommune_coa.svg', import.meta.url).href,
     description: 'Documentation site created during my IT-support role at Frederiksberg municipality.'
   },
   {
